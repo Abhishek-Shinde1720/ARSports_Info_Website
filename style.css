@@ -1,0 +1,109 @@
+body{
+	font-family: 'FT sans', sans-serif;
+	background-color: #262723 ;
+	color: #ffffff;
+	margin: 0;
+	line-height: 1.5 ;
+}
+
+a{
+	text-decoration: none;
+	color: #D1CDC2 ;
+
+}
+
+#sample{
+	margin: 0;
+	padding: 0;
+	background: url('sportss.jpg') no-repeat center/cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+
+
+#sample .container{
+	margin-top: 25vh;
+}
+
+#sample h1{
+	font-size: 4rem;
+	margin-bottom: 0;
+	
+}
+#sample h2{
+	font-size: 2rem;
+	
+}
+
+nav{
+	height: 40px;
+	width: 100%;
+	background-color: #2C3133  ;
+	color: rgb(44,49,51) ;
+	position: fixed;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline;
+	float: left;
+}
+
+nav a{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 0;
+
+	
+}
+
+nav li:hover{
+	background-color: #101010 ;
+}
+
+.container{
+	max-width: 1180px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 4rem;
+}
+
+.real{
+	font-size: 1.5rem;
+}
+
+footer .footer-cols{
+	display: grid;
+	grid-gap: 25px;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 2rem;
+	text-align: left;
+	font-size: 14px;
+}
+
+footer .footer-cols ul{
+	list-style: none;
+}
+
+footer .footer-cols ul li:first-child{
+	font-size: 1.3rem;
+	padding-bottom: 1rem;
+	border-bottom: #ADD2DC solid 1px ;
+	margin-bottom: 1.1rem;
+
+}
+
+.footer-bottom{
+	padding: 1rem;
+	background-color: #2C3133;
+	text-align: center;
+}
+
